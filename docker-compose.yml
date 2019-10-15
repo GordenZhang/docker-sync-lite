@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  demo:
+    build:
+      context: ./docker/$ENV/
+    container_name: demo
+    volumes:
+      - $PWD:/source
+      - docker-code-volume:/app:nocopy
+    working_dir: /app
+    command:
+      - sh
+      - /start.sh
+volumes:
+  docker-code-volume:
+
