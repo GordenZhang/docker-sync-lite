@@ -1,5 +1,6 @@
 # docker-sync-lite
 A simple way to sync local code to docker container
+You can alse use [http://docker-sync.io/], which is much more powerful.(but maybe you will get some problem with the ruby version.🤣)
 
 ## Notice
 This project use a docker image based on alpine. If you want to use other image, you should change the docker/dev/Dockerfile to install the `unison` and `inotify-tools`.
