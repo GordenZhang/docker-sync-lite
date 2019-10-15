@@ -1,5 +1,5 @@
 # docker-sync-lite
-A simple way to sync local code to docker container
+A simple way to sync local code to docker container.  
 You can alse use [http://docker-sync.io/], which is much more powerful.(but maybe you will get some problem with the ruby version.🤣)
 
 ## Notice
